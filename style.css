@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Flavors&family=Gorditas:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Parkinsans:wght@300..800&family=Rubik+Distressed&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Flavors&family=Gorditas:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Parkinsans:wght@300..800&family=Questrial&family=Roboto+Slab:wght@100..900&family=Rubik+Distressed&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Flavors&family=Gorditas:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Parkinsans:wght@300..800&family=Questrial&family=Roboto+Slab:wght@100..900&family=Rubik+Distressed&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Flavors&family=Gorditas:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Parkinsans:wght@300..800&family=Questrial&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&family=Rubik+Mono+One&family=Unbounded:wght@200..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height:85px; 
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffecf0;
+    box-shadow: 0 2px 5px #d7b1c9;
+}
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+header a{
+    margin: 25px;
+}
+  .ngca{
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#970850;
+    width: 60%;
+  }
+  .logo{
+    max-width:100%;
+    max-height: 100%;
+  }
+  nav ul li{ 
+    display: inline-block;
+    list-style:none;
+    margin: 10px 15px;
+  }
+  nav ul li a{
+    text-decoration:none;
+    color: #580d33;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .h1{
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 10%;
+    border:2px solid black;
+    border-radius: 35px;
+    margin-top:30px;
+    display:inline-block;
+  }
+  .article1{
+    padding: 10px 5%;
+    justify-content:space-around;
+    margin-top:10%;
+    max-width: 600px;
+    margin-top:10px;
+  }
+  .h2{
+    font-family: "Unbounded", serif;
+    font-size: 30px;
+    font-weight:700;
+    padding: 30px 0;
+  }
+  .paragraph{
+    font-family: "Acme", serif;
+    font-weight: 400;
+    font-size:25px;
+  }
+  .ngf_text{
+    font-family: "Acme", serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding:0 10px;
+    width:1200px;
+  }
+  .likely{
+    
+    margin-left: 20px;
+    padding: 5px 10%;
+    
+  }
+  .valen{
+    width:80%;
+    height: 20%;
+    padding-left:350px;
+
+  }
+  .ours{
+    color:black;
+  }
+  nav a{
+    text-decoration: none;
+    color:#d7b1c9;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:rgb(224, 141, 172);
+    border-radius: 20px;
+    border: solid 2px black;
+  }
+  .codelists{
+    font-family: "Zain", serif;
+    font-weight: 500;
+    font-size:30px;
+
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0 10%;
+    margin-top:30px;
+  }
+  .act{
+    font-family: "Unbounded", serif;
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 10%;
+    border:2px solid black;
+    border-radius: 35px;
+    margin-top:30px;
+    display:inline-block;
+  }
+  .hcode{
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px 10%;
+    border:2px solid black;
+    border-radius: 35px;
+    margin-top:10px;
+    display:inline-block;
+  }
+  .hello{
+    padding:20px 7%;
+    font-weight: 500;
+    font-size:20px;
+    font-family: "Inter", serif;
+  }
+  .hello1{
+    padding:0px 7%;
+    font-weight: 500;
+    font-size:17px;
+    font-family: "Inter", serif;
+  }
+  .easy{
+    font-family: "Inter", serif;
+    padding:0 7%;
+    font-size:20px;
+    font-weight:500;
+    margin-bottom: 20px;
+  }
+  .open{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Inter", serif;
+    padding:0 7%;
+  }
+  .lili{
+    padding-bottom:20px;
+  }
+  .h1g{
+    font-family: "Montserrat", serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px 20%;
+    margin-top: 10px;
+    display: inline-block;
+ }
+ .here{
+    font-family: "Inter", serif;
+    font-size: 15px;
+    padding: 0 7%;
+ }
+ .guides{
+    font-family: "Montserrat", serif;
+    font-size:20px;
+    font-weight:700;
+    padding:20px 0;
+ }
+ .inter{
+  font-family: "Inter", serif;
+ }
+ .all{
+  padding:20px 60px;
+  font-size: 20px;
+  font-weight:400;
+ }
+ .under{
+  padding:10px 0;
+  font-weight:500;
+ }
+ .about{
+  font-family: "Montserrat", serif;
+  padding:20px 10%;
+ }
+ .ourm{
+  font-family: "Inter", serif;
+  padding:10px 5%;
+ }
+ ours{
+  background-color:#333;
+ }
